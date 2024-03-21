@@ -1,0 +1,299 @@
+@font-face {
+  font-family: Gotham Pro;
+  src: url(../font/Gotham-Pro.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+  background: linear-gradient(132.59deg, #9e0b37 0.982%, #ffc531 72.223%, #9e0b37 99.953%);
+}
+header nav {
+  width: 550px;
+  margin: 30px 0 0 250px;
+}
+header nav a {
+  margin-right: 72px;
+  display: inline;
+  color: #ffffff;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 16px;
+}
+header nav .directions {
+  margin-right: 72px;
+  display: inline;
+}
+header nav .directions a {
+  margin-right: 14px;
+}
+header .right {
+  margin: 15px 250px 0 0;
+}
+header .right a {
+  margin-right: 43px;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+header .right button {
+  width: 160px;
+  height: 49px;
+  border-radius: 40px;
+  box-shadow: inset 4px 4px 6px 0px rgba(255, 255, 255, 0.5), 4px 4px 20px 0px rgba(223, 80, 23, 0.8);
+  background: rgba(158, 11, 55, 0.7);
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+}
+main {
+  background-color: #171422;
+  position: relative;
+}
+main .top_section {
+  height: 648px;
+  width: 100%;
+  overflow: hidden;
+}
+main .top_section .bg {
+  width: 1290px;
+  height: 648px;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(140.19deg, #df5017 2.56%, rgba(223, 80, 23, 0.44) 19.647%, rgba(223, 80, 23, 0.19) 32.487%, rgba(223, 80, 23, 0) 49.303%), linear-gradient(90deg, #282533 65.153%, #282533 65.156%, rgba(40, 37, 51, 0.74) 82.213%, rgba(40, 37, 51, 0) 100%);
+}
+main .top_section img {
+  position: relative;
+  float: right;
+  z-index: 0;
+}
+main .top_section h1 {
+  margin: 263px 0 0 250px;
+  position: absolute;
+  color: #ffffff;
+  z-index: 2;
+  font-size: 50px;
+  font-family: "Gotham Pro";
+}
+main aside {
+  margin: 108px 0 -1002px 1464px;
+}
+main aside .block {
+  width: max-content;
+  margin: 0 0 35px 0;
+}
+main aside .block img:nth-child(3) {
+  margin: -44px 0 0 163px;
+  z-index: 2;
+  position: absolute;
+}
+main aside .block span {
+  height: 35px;
+  width: 207px;
+  box-sizing: border-box;
+  margin: -59px 0 0 0;
+  z-index: 2;
+  position: relative;
+  text-transform: uppercase;
+  padding: 5px 35px 0 0px;
+  border: 0.96px solid #ffffff;
+  border-radius: 23.91px;
+  box-shadow: 1.91px 1.91px 9.57px 0px rgba(255, 255, 255, 0.8);
+  display: block;
+  font-size: 9px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+}
+main .container {
+  width: 1190px;
+  margin: 100px 0 0 250px;
+}
+main .container p {
+  line-height: 140%;
+}
+main .container .gradient {
+  height: 152px;
+  display: inline-block;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ffa462 0%, #b45350 21.793%, #8a2645 48.927%, #291725 84.552%);
+}
+main .container .gradient p {
+  margin: 50px 0 0 40px;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 21px;
+}
+main .container .block {
+  margin: 50px 0 0 0;
+  display: flex;
+}
+main .container .block .number {
+  width: max-content;
+  font-family: "Gotham Pro";
+  font-size: 183px;
+  font-weight: 700;
+  background: linear-gradient(136.44deg, #8a2645, #291725, #171422);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+main .container .block p {
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 22px;
+}
+main .container .block .description {
+  height: max-content;
+  width: max-content;
+  margin: 40px 0 0 10px;
+}
+main .container .block.one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .container .block.one .number {
+  width: max-content;
+  margin: 30px 0 0 0;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 183px;
+  font-weight: 700;
+  background: linear-gradient(136.44deg, #8a2645, #291725, #171422);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+main .container .block.one p {
+  width: 1000px;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 22px;
+}
+main .container .block.one .description {
+  height: max-content;
+  margin: 70px 0 0 30px;
+}
+main .container .block.one .block_image {
+  margin: -90px 0 0 94px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .container .block.one .block_image .image {
+  width: 268px;
+  height: 62px;
+  margin: 0 41px 31px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+}
+main .container .block.one .more_bottom {
+  margin: 0 0px 0 -30px;
+  text-align: end;
+  font-size: 18px;
+}
+main .container .block.one .text {
+  margin: 40px 0 0 0;
+}
+main .container .block.two .description {
+  margin: 60px 0 0 10px;
+}
+main .container .block.three {
+  flex-wrap: wrap;
+}
+main .container .block.three .description {
+  width: 1040px;
+}
+main .container .block.three img {
+  object-fit: contain;
+}
+main .container .block.three .error {
+  margin: -90px 0 0 260px;
+}
+main .container .block.three .warning {
+  margin: -22px 0 0 97px;
+}
+main .container .block.three .text {
+  margin: 42px 0 0 0 ;
+}
+main .container .block.three .booklets img:nth-child(1) {
+  margin: 0 0 0 530px;
+}
+main .container .block.three .booklets img:nth-child(2) {
+  margin: -100px 0 0 320px;
+  z-index: 2;
+  position: relative;
+}
+main .container .block.three .booklets .images {
+  margin: -42px 0 0 0;
+}
+main .container .block.three .booklets .images img {
+  margin: 0 18px 0 0;
+}
+main .container .block.three .booklets .images img:nth-child(2) {
+  z-index: 1;
+}
+main .container .block.three .booklets .images img:nth-child(3) {
+  margin: 0 166px 0 0;
+}
+main .container .block.three .booklets .images img:nth-child(4) {
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+}
+main .container .block.four .description {
+  margin: 20px 0 0 10px;
+}
+main .container .block.five .description {
+  margin: 20px 0 0 10px;
+}
+.text_bottom {
+  width: 1380px;
+  margin: 40px 0 0 255px;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 22px;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-55%);
+  }
+}
+main {
+  overflow: hidden;
+}
+.image_block {
+  width: 200%;
+  display: flex;
+  animation: scroll 35s linear infinite;
+}
+.image_block span {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.image_block img {
+  width: 402.5px;
+  height: 280px;
+  margin: 0 19.75px 0 0;
+  border-radius: 20px;
+}
+.image_block.bottom {
+  margin: 19px 0 0 -90px;
+}
