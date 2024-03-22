@@ -82,6 +82,7 @@ main .top_section h1 {
   z-index: 2;
   font-size: 50px;
   font-family: "Gotham Pro";
+  text-transform: uppercase;
 }
 main aside {
   margin: 108px 0 -1002px 1464px;
